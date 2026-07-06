@@ -14,3 +14,23 @@ The React Compiler is not enabled on this template because of its impact on dev 
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+
+# Scrimba React Course
+
+## Como correr o projeto
+
+1. Abrir terminal
+2. `cd C:\ScrimbaReactCourse\scrimba-react`
+3. `npm run dev`
+4. Abrir no browser: http://localhost:5173
+
+## Parar
+
+Ctrl+C no terminal
+
+## Guardar no GitHub
+
+git add .
+git commit -m "mensagem"
+git push
