@@ -2,7 +2,7 @@ import './index.css'
 
 import {createRoot} from "react-dom/client"
 
-const root = createRoot(document.getElementById("root"))
+const root = createRoot(document.querySelector(".root"))
 
 root.render(<ul>
                 <li>É uma das bibliotecas mais populares e requisitadas do mercado.</li>
