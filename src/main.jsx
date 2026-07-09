@@ -1,5 +1,5 @@
 import './index.css'
-
+import { useState } from "react"
 import {createRoot} from "react-dom/client"
 
 const root = createRoot(document.querySelector(".root"))
@@ -21,13 +21,22 @@ function MainTest() {
         </section>
     )
 }
+
+//useState aprende a usar!
 function Mybutton() {
+    function handleClick() {
+        setBot(!bot)
+    }
+    
+    const [bot, setBot] = useState(false);
     return (
         <section>
-            <button>Este é um botão</button>
+            <button onClick={handleClick}>{bot ? "Ligado" : "Desligado"} Este é um botão</button>
         </section> 
     )
 }
+
+
 
 root.render(
         <>
